@@ -57,8 +57,8 @@ function getPage($url) {
 
 function aws_signed_request($region, $params) {
 
-    $public_key = "AKIAIQX4USQAGPQTS4CA";
-    $private_key = "H6OcggQAW3EhY//xIKG5I86bLxQNm6rrdV8V6BDD";
+    $public_key = "AWS public key";
+    $private_key = "AWS private key";
 
     $method = "GET";
     $host = "ecs.amazonaws." . $region;
